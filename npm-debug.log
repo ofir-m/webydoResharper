@@ -1,0 +1,187 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '--save', 'request' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'request', null ]
+7 verbose cache add name=undefined spec="request" args=["request",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'request',
+8 verbose parsed url   path: 'request',
+8 verbose parsed url   href: 'request' }
+9 silly lockFile 088e29b0-request request
+10 verbose lock request /home/maorof/.npm/088e29b0-request.lock
+11 silly lockFile 088e29b0-request request
+12 silly lockFile 088e29b0-request request
+13 verbose addNamed [ 'request', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 9d461bcf-request request@
+16 verbose lock request@ /home/maorof/.npm/9d461bcf-request.lock
+17 silly addNameRange { name: 'request', range: '*', hasData: false }
+18 verbose request where is /request
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 29215c2cc3910431
+21 verbose url raw /request
+22 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+23 verbose url resolved https://registry.npmjs.org/request
+24 verbose request where is https://registry.npmjs.org/request
+25 info trying registry request attempt 1 at 11:43:19
+26 verbose etag "CHHCR7S256V0LSW4EWWR20KY0"
+27 http GET https://registry.npmjs.org/request
+28 http 304 https://registry.npmjs.org/request
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Tue, 11 Aug 2015 08:42:22 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     etag: '"CHHCR7S256V0LSW4EWWR20KY0"',
+29 silly registry.get     age: '21',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-lcy1128-LCY',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '2',
+29 silly registry.get     'x-timer': 'S1439282542.738091,VS0,VE0',
+29 silly registry.get     vary: 'Accept' } ]
+30 verbose etag https://registry.npmjs.org/request from cache
+31 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
+32 silly addNameRange versions [ 'request',
+32 silly addNameRange   [ '0.10.0',
+32 silly addNameRange     '0.8.3',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.9.5',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.1.0',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.9.0',
+32 silly addNameRange     '1.9.1',
+32 silly addNameRange     '1.9.2',
+32 silly addNameRange     '1.9.3',
+32 silly addNameRange     '1.9.5',
+32 silly addNameRange     '1.9.7',
+32 silly addNameRange     '1.9.8',
+32 silly addNameRange     '1.9.9',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '2.0.1',
+32 silly addNameRange     '2.0.2',
+32 silly addNameRange     '2.0.3',
+32 silly addNameRange     '2.0.4',
+32 silly addNameRange     '2.0.5',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.1.1',
+32 silly addNameRange     '2.2.0',
+32 silly addNameRange     '2.2.5',
+32 silly addNameRange     '2.2.6',
+32 silly addNameRange     '2.2.9',
+32 silly addNameRange     '2.9.0',
+32 silly addNameRange     '2.9.1',
+32 silly addNameRange     '2.9.2',
+32 silly addNameRange     '2.9.3',
+32 silly addNameRange     '2.9.100',
+32 silly addNameRange     '2.9.150',
+32 silly addNameRange     '2.9.151',
+32 silly addNameRange     '2.9.152',
+32 silly addNameRange     '2.9.153',
+32 silly addNameRange     '2.9.200',
+32 silly addNameRange     '2.9.201',
+32 silly addNameRange     '2.9.202',
+32 silly addNameRange     '2.9.203',
+32 silly addNameRange     '2.10.0',
+32 silly addNameRange     '2.11.0',
+32 silly addNameRange     '2.11.1',
+32 silly addNameRange     '2.11.2',
+32 silly addNameRange     '2.11.3',
+32 silly addNameRange     '2.11.4',
+32 silly addNameRange     '2.12.0',
+32 silly addNameRange     '2.14.0',
+32 silly addNameRange     '2.16.0',
+32 silly addNameRange     '2.16.2',
+32 silly addNameRange     '2.16.4',
+32 silly addNameRange     '2.16.6',
+32 silly addNameRange     '2.18.0',
+32 silly addNameRange     '2.19.0',
+32 silly addNameRange     '2.20.0',
+32 silly addNameRange     '2.21.0',
+32 silly addNameRange     '2.22.0',
+32 silly addNameRange     '2.23.0',
+32 silly addNameRange     '2.24.0',
+32 silly addNameRange     '2.25.0',
+32 silly addNameRange     '2.26.0',
+32 silly addNameRange     '2.27.0',
+32 silly addNameRange     '2.28.0',
+32 silly addNameRange     '2.29.0',
+32 silly addNameRange     '2.30.0',
+32 silly addNameRange     '2.31.0',
+32 silly addNameRange     '2.32.0',
+32 silly addNameRange     '2.33.0',
+32 silly addNameRange     '2.34.0',
+32 silly addNameRange     '2.35.0',
+32 silly addNameRange     '2.36.0',
+32 silly addNameRange     '2.37.0',
+32 silly addNameRange     '2.38.0',
+32 silly addNameRange     '2.39.0',
+32 silly addNameRange     '2.40.0',
+32 silly addNameRange     '2.41.0',
+32 silly addNameRange     '2.42.0',
+32 silly addNameRange     '2.43.0',
+32 silly addNameRange     '2.44.0',
+32 silly addNameRange     '2.45.0',
+32 silly addNameRange     '2.46.0',
+32 silly addNameRange     '2.47.0',
+32 silly addNameRange     '2.48.0',
+32 silly addNameRange     '2.49.0',
+32 silly addNameRange     '2.50.0',
+32 silly addNameRange     '2.51.0',
+32 silly addNameRange     '2.52.0',
+32 silly addNameRange     '2.53.0',
+32 silly addNameRange     '2.54.0',
+32 silly addNameRange     '2.55.0',
+32 silly addNameRange     '2.56.0',
+32 silly addNameRange     '2.57.0',
+32 silly addNameRange     '2.58.0',
+32 silly addNameRange     '2.59.0',
+32 silly addNameRange     '2.60.0' ] ]
+33 verbose addNamed [ 'request', '2.60.0' ]
+34 verbose addNamed [ '2.60.0', '2.60.0' ]
+35 silly lockFile 85184b9c-request-2-60-0 request@2.60.0
+36 verbose lock request@2.60.0 /home/maorof/.npm/85184b9c-request-2-60-0.lock
+37 silly lockFile c269e860-s-org-request-request-2-60-0-tgz https://registry.npmjs.org/request/-/request-2.60.0.tgz
+38 verbose lock https://registry.npmjs.org/request/-/request-2.60.0.tgz /home/maorof/.npm/c269e860-s-org-request-request-2-60-0-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.60.0.tgz',
+39 verbose addRemoteTarball   '498820957fcdded1d37749069610c85f61a29f2d' ]
+40 info retry fetch attempt 1 at 11:43:20
+41 verbose fetch to= /tmp/npm-11997-6z8t5keW/registry.npmjs.org/request/-/request-2.60.0.tgz
+42 http GET https://registry.npmjs.org/request/-/request-2.60.0.tgz
+43 http 200 https://registry.npmjs.org/request/-/request-2.60.0.tgz
+44 silly lockFile c269e860-s-org-request-request-2-60-0-tgz https://registry.npmjs.org/request/-/request-2.60.0.tgz
+45 silly lockFile c269e860-s-org-request-request-2-60-0-tgz https://registry.npmjs.org/request/-/request-2.60.0.tgz
+46 silly lockFile 85184b9c-request-2-60-0 request@2.60.0
+47 silly lockFile 85184b9c-request-2-60-0 request@2.60.0
+48 silly lockFile 9d461bcf-request request@
+49 silly lockFile 9d461bcf-request request@
+50 error Error: EACCES, mkdir '/home/maorof/.npm/request/2.60.0'
+50 error  { [Error: EACCES, mkdir '/home/maorof/.npm/request/2.60.0']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/home/maorof/.npm/request/2.60.0',
+50 error   parent: 'untitled' }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.16.0-38-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "request"
+54 error cwd /home/maorof/WebstormProjects/webydoResharper
+55 error node -v v0.10.37
+56 error npm -v 1.4.28
+57 error path /home/maorof/.npm/request/2.60.0
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/home/maorof/.npm/request/2.60.0'
+61 verbose exit [ 3, true ]

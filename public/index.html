@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+
+    <title></title>
+</head>
+<style>
+    .clearfix:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    #main {
+        background-color: #f4f4f4;
+        margin: 0 auto;
+        padding: 100px;
+        width: 500px;
+    }
+.inputWrapper
+{
+    margin: 0 auto;
+    width: 300px;
+}
+    .inputWrapper label {
+        float: left;
+        width: 80px;
+    }
+
+    .inputWrapper input {
+        float: left;
+    }
+
+    .removeBtn {
+        float: left;
+    }
+
+    .undoBtn {
+        /* float: right; */
+        margin: 0 auto;
+        display: block;
+        width: 100px;
+        clear: both;
+        background-color: #c3c3c3;
+        margin-top: 22px;
+        display:none;
+    }
+    .buttonsWrapper button{
+       cursor:pointer
+
+    }
+    .buttonsWrapper {
+        background-color: #d3d3d3;
+        margin: 30px auto;
+        padding: 12px;
+        width: 414px;
+
+    }
+</style>
+<body ng-app="app" style="">
+<div id="main" ng-controller="removeHeaderFooterController" class="">
+    <div>
+        <div class="inputWrapper">
+            <label>source site</label>
+            <input ng-model="sourceSite"/>
+        </div>
+        <br/>
+        <br/>
+
+        <div class="inputWrapper">
+            <label>target site</label>
+            <input ng-model="targetSite"/>
+        </div>
+    </div>
+    <br/>
+    <br/>
+
+    <div class="buttonsWrapper clearfix">
+        <button class="removeHeaderBtn" type="button" ng-click="removeHeader()">remove header</button>
+        <button class="removeFooterBtn" type="button" ng-click="removeFooter()">remove footer</button>
+        <button class="removeFooterBtn" type="button" ng-click="removeAll()">remove all</button>
+        <button class="convertBtn" type="button" ng-click="convertRepeaters()">convert repeaters</button>
+    </div>
+</div>
+<script src="/bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="/bower_components/angular-resource/angular-resource.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/resources/resources.js"></script>
+<script type="text/javascript" src="/js/controllers/removeHeaderFooterController.js"></script>
+</body>
+</html>
